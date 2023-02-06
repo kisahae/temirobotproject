@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#0D2A2B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Correct!"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <RadioGroup
+            android:layout_marginTop="20dp"
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/select_temi1"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:layout_weight="1"
+                android:text="Temi1"
+                android:background="@drawable/temi1condition"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:button="@android:color/transparent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/select_temi2"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@android:color/transparent"
+                android:text="Temi2"
+                android:background="@drawable/temi2condition"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/correct">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:text="Next Turn"
+            android:textSize="25dp"
+            android:background="@drawable/custombutton">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
