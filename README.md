@@ -1,7 +1,6 @@
 # Temi Marble
 
-This application was developed using Java, Temi SDK, and Android Studio. The concept of the game is similar to Yut Game (traditional Korean game). When we answer the question correctly, the Temi Robot will 
-move to the desired place (based on each point per question). Here are some screenshots of the application.
+This application was developed using Java, Temi SDK, and Android Studio. The game's concept is similar to Yut Game (a traditional Korean game). When we answer the question correctly, the Temi Robot will move to the desired place (based on each point per question). Here are some screenshots of the application.
 
 <img src="https://user-images.githubusercontent.com/112599839/217842951-3200a23b-fe5f-4816-8b8f-8603fd679d24.png">
 <div style="display:flex; justify-content:space-evenly">
